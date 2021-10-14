@@ -1,0 +1,6 @@
+{
+    "ignorePatterns": [ "**/public/bootstrap/js/*.js"],
+    "rules": {
+       
+    }
+}
