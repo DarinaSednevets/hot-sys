@@ -6,62 +6,59 @@ const App = () => {
 
   return (
     <body>
-      <header>
+      <header class="header">
 
-        <nav class="  navbar navbar-expand-md navbar-light bg-light ">
-          <a class="navbar-brand" href="/index.html">logo</a>
+        <nav class="  navbar navbar-expand-md navbar-light  ">
           <div class="container-fluid">
+            
+            <a class="navbar-brand" href="/index.html">logo</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav" >
 
                 <li class="nav-item">
                   <a class="nav-link " href="/Über Uns">Über Uns</a>
                 </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Produkte
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="/Produkte 1">Produkte 1</a></li>
+                      <li><a class="dropdown-item" href="/Produkte 2">Produkte 2</a></li>
+                      <li><a class="dropdown-item" href="/Produkte 3">Produkte 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+
 
                 <li class="nav-item">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Produkte
-                      </button>
-                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        </div>
-                      </div>
-                    </div>
+                  <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Peripherietechnik
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="/Peripherietechnik 1">Peripherietechnik 1</a></li>
+                      <li><a class="dropdown-item" href="/Peripherietechnik 2">Peripherietechnik 2</a></li>
+                    </ul>
                   </div>
                 </li>
 
                 <li class="nav-item">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Peripherietechnik
-                      </button>
-                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="nav-item">
-                  <div class="accordion" id="accordionExample">
-                    <li class="nav-item">
-                      <div class="accordion-item">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          Dienstleistungen
-                        </button>
-                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dienstleistungen
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="/Dienstleistungen 1">Dienstleistungen 1</a></li>
+                      <li><a class="dropdown-item" href="/Dienstleistungen 2">Dienstleistungen 2</a></li>
+                    </ul>
                   </div>
                 </li>
 
