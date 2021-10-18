@@ -1,47 +1,125 @@
 import { React } from 'react';
 import './App.scss';
 
+
 const App = () => {
 
   return (
     <body>
       <header>
 
+        <nav class="  navbar navbar-expand-md navbar-light bg-light ">
+          <a class="navbar-brand" href="/index.html">logo</a>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" >
+
+                <li class="nav-item">
+                  <a class="nav-link " href="/Über Uns">Über Uns</a>
+                </li>
+
+                <li class="nav-item">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Produkte
+                      </button>
+                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Peripherietechnik
+                      </button>
+                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <div class="accordion" id="accordionExample">
+                    <li class="nav-item">
+                      <div class="accordion-item">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Dienstleistungen
+                        </button>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/Klimatechnik">Klimatechnik</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Kontakt">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Presse">Presse</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
       </header>
 
       <section className="presentation">
-        <h1 className="h1">
+        <h1 class="h1">
           Luftkondensierte<br />
           Kältemaschinen<br />
           & Kaltwassersätze<br />
         </h1>
+        <div class="presentation-img-1"></div>
         <div className="decoration-line"></div>
         <p className="text">Aufgrund der kompakten Bauart
           werden platzsparende luftkondensierte Kompressionskältemaschinen
           (umgangsspr. „Kaltwassersätze“)
           vielseitig zur Prozesskühlung und Gebäudeklimatisierung eingesetzt.
         </p>
+        <div class="presentation-img-2"></div>
       </section>
 
       <section className="energy-efficiency">
-        <h2 className="h2">ENERGIEEFFIZIENZ IM FOKUS</h2>
-        <p className="text">
-          Bei der Anschaffung sollte deshalb besonders auf energieeffiziente Systeme geachtet werden, denn die Betriebskosten der Anlage überschreiten erfahrungsgemäß über die Lebensdauer hinweg die einmaligen
+        <h2 className="h2">ENERGIEEFFIZIENZ IM <br className="br"></br>FOKUS</h2>
+        <p>
+          Bei der Anschaffung sollte deshalb besonders auf <span>energieeffiziente Systeme</span> geachtet werden, denn die Betriebskosten der Anlage überschreiten erfahrungsgemäß über die Lebensdauer hinweg die einmaligen
           Anschaffungskosten um ein vielfaches.
           Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
         </p>
+
       </section>
 
-      <section>
-        <h2>MODERNSTE STANDARDS</h2>
-        <p>Aktuelle Richtlinien und Verordnungen bezüglich des Kältemittel Phase-Downs müssen berücksichtigt werden.
-          Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch strategischen
-          Gesichtspunkten entschieden werden.
-          Alle unsere Kältemaschinen entsprechen dem modernsten Stand
-          der Technik und werden in den unterschiedlichsten Branchen eingesetzt.
-          Unser Angebot umfasst ein breites Sortiment an natürlichen und frigenen Kältemitteln,
-          die den aktuellsten Normen und Verordnungen entsprechen.
-        </p>
+      <section className="standards">
+        <div class="standards-img-1"></div>
+        <div className="standards-div">
+          <h2>MODERNSTE STANDARDS</h2>
+          <p>Aktuelle Richtlinien und Verordnungen bezüglich des <span>Kältemittel Phase-Downs</span>  müssen berücksichtigt werden.
+            Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch strategischen
+            Gesichtspunkten entschieden werden.
+            Alle unsere Kältemaschinen entsprechen dem modernsten Stand
+            der Technik und werden in den unterschiedlichsten Branchen eingesetzt.
+            Unser Angebot umfasst ein <span>breites Sortiment an natürlichen und frigenen Kältemitteln</span>,
+            die den aktuellsten Normen und Verordnungen entsprechen.
+          </p>
+        </div>
       </section>
 
       <section className="speciality">
@@ -90,6 +168,7 @@ const App = () => {
 
       <section className="photos">
         <h2>BILDER</h2>
+        <div class="photos-img-1"></div>
       </section>
 
       <section className="technologies">
