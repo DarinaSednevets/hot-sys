@@ -10,7 +10,7 @@ const App = () => {
 
         <nav class="  navbar navbar-expand-md navbar-light  ">
           <div class="container-fluid">
-            
+
             <a class="navbar-brand" href="/index.html">logo</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,9 +121,11 @@ const App = () => {
 
       <section className="speciality">
         <h2>Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter Freikühleinheit.</h2>
-        <p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente Umgebungsluft.</p>
-        <p>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
-          Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen auch bei kleinen Nennleistungen.</p>
+        <p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente Umgebungsluft.
+          <br></br>
+          <br></br>
+          <span>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
+            Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</span> auch bei kleinen Nennleistungen.</p>
 
       </section>
 
@@ -140,27 +142,59 @@ const App = () => {
           <li className="item">Geringe Schallemissionen</li>
           <li className="item">Wetterfest und Langlebig</li>
           <li className="item">Erhöhte Betriebssicherheit</li>
-
         </ul>
 
       </section>
 
       <section className="features">
-        <h2>HAUPTMERKMALE</h2>
-        <p className="features-item">25 verschiedene Modelle von 6 kW bis 600 kW Kühlleistung</p>
-        <p className="features-item">Volumenströme von 1,5 m³/h bis 140 m³/h</p>
-        <p className="features-item"> Auswahl aus 50 verschiedenen Prozesspumpen im Hochfluss- und Hochdruckbereich</p>
-        <p className="features-item">Kompakteinheiten mit integrierten Pumpen, Drucktanks, Filtern,Steuerungen (optional mit Reservepumpe)</p>
-        <p className="features-item"> Mikrochannel Verflüssiger für höchste Energieeffizienz</p>
-        <p className="features-item">Mit optionalen Kompressor Schallschutzummantelungen</p>
-        <p className="features-item"> Schallmindernde Ventilatortechnik erhältlich</p>
-        <p className="features-item"> Scroll, Multiscroll und Schraubenkompressoren (optional mit Frequenzumrichter)erhältlich </p>
-        <p className="features-item">Automatische Leistungssteuerung für Prozesse mit variabler Kühllast</p>
-        <p className="features-item"> Kleine Kältemittelvolumen dank extrakompakter Bauweise</p>
-        <p className="features-item">uswahl aus verschiedenen Low-GWP Kältemitteln, u.a. R513a, R1234ze und R290 (Propan)</p>
-        <p className="features-item">Mit automatischen Glykol Nachfüllsystemem</p>
-        <p className="features-item">Mit Remote HMI</p>
-        <p className="features-item">Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen pro Maschine</p>
+        <div>
+          <h2>HAUPTMERKMALE</h2>
+          <ul>
+            <li class="item">
+              <div>1</div><p>25 verschiedene Modelle von <span>6 kW bis 600 kW</span> Kühlleistung</p>
+            </li>
+            <li class="item">
+              <div>2</div><p>Volumenströme von <span>1,5 m³/h bis 140 m³/h</span></p>
+            </li>
+            <li class="item">
+              <div>3</div><p>Auswahl aus <span>50 verschiedenen Prozesspumpen</span> im Hochfluss- und Hochdruckbereich</p>
+            </li>
+            <li class="item">
+              <div>4</div><p>Kompakteinheiten mit <span>integrierten Pumpen, Drucktanks, Filtern,Steuerungen</span> (optional mit Reservepumpe)</p>
+            </li>
+            <li class="item">
+              <div>5</div><p><span>Mikrochannel Verflüssiger</span> für höchste Energieeffizienz</p>
+            </li>
+            <li class="item">
+              <div>6</div><p>Mit optionalen <span>Kompressor Schallschutzummantelungenz</span></p>
+            </li>
+            <li class="item">
+              <div>7</div><p><span>Schallmindernde Ventilatortechnik</span> erhältlich</p>
+            </li>
+            <li class="item">
+              <div>8</div><p><span>Scroll, Multiscroll und Schraubenkompressoren </span>(optional mit Frequenzumrichter)erhältlich </p>
+            </li>
+            <li class="item">
+              <div>9</div><p><span>Automatische Leistungssteuerung</span> für Prozesse mit variabler Kühllast</p>
+            </li>
+            <li class="item">
+              <div>10</div><p><span>Kleine Kältemittelvolumen</span> dank extrakompakter Bauweise</p>
+            </li>
+            <li class="item">
+              <div>11</div><p>Auswahl aus <span>verschiedenen Low-GWP Kältemitteln, u.a.R513a, R1234ze und R290 (Propan)</span></p>
+            </li>
+            <li class="item">
+              <div>12</div><p>Mit <span>automatischen Glykol Nachfüllsystemem</span></p>
+            </li>
+            <li class="item">
+              <div>13</div><p>Mit <span>Remote HMI</span></p>
+            </li>
+            <li class="item">
+              <div>14</div><p><span>Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen</span> pro Maschine</p>
+            </li>
+
+          </ul>
+        </div>
       </section>
 
       <section className="photos">
