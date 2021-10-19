@@ -411,6 +411,7 @@ h2 {
 .technologies {
   padding-top: 40px;
   background: #fbfbfc;
+  border-bottom: 1px solid #eef0f4;
 }
 .technologies h2 {
   font-weight: 500;
@@ -481,3 +482,60 @@ h2 {
 }
 
 ///////////////////////technologies END
+///////////////////////footer
+.footer {
+  margin-top: 45px;
+  padding-bottom: 56px;
+  margin-left: 24px;
+  // margin-left: auto;
+  // margin-right: auto;
+}
+.footer address {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .adress-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.4px;
+  color: #a3adba;
+}
+.footer .adress-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.4px;
+  color: #9eabbb;
+}
+
+.footer .footer-item:not(:last-child) {
+  margin-bottom: 17px;
+}
+.tel {
+  color: #45494f;
+}
+.tel,
+.mail {
+  margin-left: 8px;
+}
+.shortlinks a {
+  color: #7c848d;
+}
+@media (min-width: 1200px) {
+  .footer {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .footer .adress {
+    display: grid;
+    grid-template-columns: repeat(3, 0.55fr);
+    width: 1200px;
+  }
+  .footer .shortlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+///////////////////////footer END

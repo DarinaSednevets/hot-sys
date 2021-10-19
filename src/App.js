@@ -224,29 +224,32 @@ const App = () => {
         <h2>Kontakt</h2>
       </sectiion>
 
-      <footer>
+      <footer class="footer">
         <adress>
-          <ul>
-            <li>
-              <p>Elsässer Kältetechnik</p>
-              <p>Königsallee 1440212 Düsseldorf</p>
+          <ul class="adress">
+            <li class="footer-item">
+              <p class="adress-title">Elsässer Kältetechnik</p>
+              <div class="adress-subtitle">Königsallee 1440212  <br></br> Düsseldorf</div>
             </li>
-            <li>
-              <p>Kontakt</p>
-              <span>Telefon:</span>
-              <a href="tel:+49 (0) 211 9232 3052">+49 (0) 211 9232 3052</a>
-              <span>E-Mail:</span>
-              <a href="mailto:info@elsasser-technik.de">info@elsasser-technik.de</a>
+            <li class="footer-item">
+              <p class="adress-title">Kontakt</p>
+              <span class="adress-subtitle">Telefon:</span>
+              <a class=" tel" href="tel:+49 (0) 211 9232 3052">+49 (0) 211 9232 3052</a>
+              <br></br>
+              <span class="adress-subtitle">E-Mail:</span>
+              <a class=" mail" href="mailto:info@elsasser-technik.de">info@elsasser-technik.de</a>
+            </li>
+            <li class="footer-item">
+              <p class="adress-title">Shortlinks</p>
+              <ul class="shortlinks">
+                <li><a href="/kontakt">Kontakt</a></li>
+                <li><a href="/rückruf vereinbarenkontakt">Rückruf vereinbaren</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/datenschutz">Datenschutz</a></li>
+              </ul>
             </li>
           </ul>
         </adress>
-        <p>Shortlinks</p>
-        <ul>
-          <li><a href="/kontakt">Kontakt</a></li>
-          <li><a href="/rückruf vereinbarenkontakt">Rückruf vereinbaren</a></li>
-          <li><a href="/impressum">Impressum</a></li>
-          <li><a href="/datenschutz">Datenschutz</a></li>
-        </ul>
       </footer>
     </body>
   )
