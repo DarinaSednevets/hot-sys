@@ -84,8 +84,8 @@ const App = () => {
           Kältemaschinen<br />
           & Kaltwassersätze<br />
         </h1>
-        <div class="presentation-img-1"></div>
         <div className="decoration-line"></div>
+        <div class="presentation-img-1"></div>
         <p className="text">Aufgrund der kompakten Bauart
           werden platzsparende luftkondensierte Kompressionskältemaschinen
           (umgangsspr. „Kaltwassersätze“)
@@ -203,13 +203,13 @@ const App = () => {
       </section>
 
       <section className="technologies">
-        <h2 className="technologies-h2">BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:</h2>
-        <ul className="technologies-list">
-          <li className="technologies-item">GLYKOLWANNEN</li>
-          <li className="technologies-item">WASSERAUFBEREITUNG</li>
-          <li className="technologies-item">ROHRLEITUNGSBAU</li>
-          <li className="technologies-item">WÄRMEMENGENMESSUNGEN</li>
-          <li className="technologies-item">ANLAGELEASING</li>
+        <h2>BESUCHER DIESER SEITE<br></br> SUCHTEN AUCH OFT<br></br> NACH:</h2>
+        <ul >
+          <li>GLYKOLWANNEN</li>
+          <li>WASSERAUFBEREITUNG</li>
+          <li>ROHRLEITUNGSBAU</li>
+          <li>WÄRMEMENGENMESSUNGEN</li>
+          <li>ANLAGELEASING</li>
         </ul>
       </section>
 

@@ -40,6 +40,14 @@ h2 {
 
 /////////////////////////////Header END
 ////////////////////////////Presentation
+.decoration-line {
+  height: 4px;
+  width: 228px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #edeff3;
+}
 .h1 {
   font-weight: bold;
   font-size: 34px;
@@ -358,7 +366,20 @@ h2 {
 }
 ////////////////////// features END
 /////////////////////////photos
+.photos {
+  padding-top: 32px;
+  background: #fbfbfc;
+}
+.photos h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 4.42px;
+  color: #020303;
+}
 .photos-img-1 {
+  margin-top: 18px;
   max-width: 100%;
   height: 479px;
   margin: 0 auto;
@@ -372,4 +393,91 @@ h2 {
     background-image: url(./images/photos-img-1-d.jpg);
   }
 }
+@media (min-width: 1200px) {
+  .photos {
+    padding-top: 74px;
+  }
+  .photos-img-1 {
+    margin-top: 30px;
+  }
+  .photos h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.43;
+  }
+}
 /////////////////////////photos END
+////////////////////////technologies
+.technologies {
+  padding-top: 40px;
+  background: #fbfbfc;
+}
+.technologies h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 2.42px;
+  color: #020303;
+}
+.technologies ul {
+  padding-bottom: 65px;
+}
+.technologies li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 359px;
+  height: 64px;
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%),
+    #004fc7;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+  border-radius: 12px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 1.42px;
+  color: #fafbfe;
+}
+@media (max-width: 1199px) {
+  .technologies li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  .technologies li {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .technologies br {
+    display: none;
+  }
+  .technologies ul {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 82px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .technologies li {
+    margin-bottom: 8px;
+  }
+  .technologies li:not(:nth-child(3n + 3)) {
+    margin-right: 8px;
+  }
+  .technologies h2 {
+    font-size: 28px;
+    line-height: 1.43;
+    text-align: center;
+    letter-spacing: 2.42px;
+  }
+}
+
+///////////////////////technologies END
