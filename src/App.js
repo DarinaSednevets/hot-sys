@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <body>
-      <header class="header">
+      <header class="header shadow-sm p-3 mb-5 bg-body rounded" >
 
         <nav class="  navbar navbar-expand-lg navbar-light  ">
           <div class="container-fluid">
@@ -104,19 +104,20 @@ const App = () => {
 
         <div className="presentation-img-1-d"></div>
 
-        <div class="presentation-img-2"></div>
+        {/* <div class="presentation-img-2"></div> */}
       </section>
 
       <section className="energy-efficiency">
-        <h2 className="h2">ENERGIEEFFIZIENZ IM <br className="br"></br>FOKUS</h2>
-        <p>
-          Bei der Anschaffung sollte deshalb besonders auf <span>energieeffiziente Systeme</span> geachtet werden, denn die Betriebskosten der Anlage überschreiten erfahrungsgemäß über die Lebensdauer hinweg die einmaligen
-          Anschaffungskosten um ein vielfaches.
-          Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
-        </p>
-
+        <div className="energy-efficiency-img"></div>
+        <div className="energy-efficiency-text-d">
+          <h2 className="h2">ENERGIEEFFIZIENZ IM <br className="br"></br>FOKUS</h2>
+          <p>
+            Bei der Anschaffung sollte deshalb besonders auf <span>energieeffiziente Systeme</span> geachtet werden, denn die Betriebskosten der Anlage überschreiten erfahrungsgemäß über die Lebensdauer hinweg die einmaligen
+            Anschaffungskosten um ein vielfaches.
+            Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
+          </p>
+        </div>
       </section>
-
       <section className="standards">
         <div class="standards-img-1"></div>
         <div className="standards-div">
