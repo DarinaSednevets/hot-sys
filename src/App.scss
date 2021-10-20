@@ -35,25 +35,32 @@ h2 {
 .accordion-item {
   background: rgb(255, 255, 255);
 }
-
+a {
+  display: block;
+}
 /////////////////////////////Header
-
+// .logo {
+//   max-width: 100%;
+//   height: 28px;
+//   // margin: 0 auto;
+//   background-image: url(./images/logo-color-m.png);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   @media screen and (min-width: 1400px) {
+//     max-width: 113px;
+//     height: 35px;
+//     background-size: 112px 35px;
+//     background-image: url(./images/logo-color-d.png);
+//   }
+// }
 /////////////////////////////Header END
 ////////////////////////////Presentation
 
-.decoration-line {
-  height: 4px;
-  width: 228px;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #edeff3;
-}
 .h1 {
   font-weight: bold;
   font-size: 34px;
   line-height: 1.88;
-  text-align: center;
+  // text-align: center;
   letter-spacing: -0.4px;
   color: #1652ac;
 }
@@ -65,20 +72,68 @@ h2 {
   color: #020303;
 }
 
-.presentation-img-1 {
-  max-width: 100%;
-  height: 355px;
-  margin: 0 auto;
-  background-image: url(./images/presentation-img-1-m.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  @media screen and (min-width: 1400px) {
-    max-width: 653px;
+@media screen and (max-width: 1199px) {
+  .h1 {
+    text-align: center;
+  }
+  .presentation-img-1-m {
+    max-width: 100%;
+    height: 355px;
+    margin: 0 auto;
+    background-image: url(./images/presentation-img-1-m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .decoration-line-d {
+    display: none;
+  }
+  .decoration-line {
+    height: 4px;
+    width: 228px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #edeff3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .presentation h1 {
+    margin-bottom: 50px;
+  }
+  .presentation p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .presentation-text-d {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .presentation-img-1-d {
+    // margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 653px;
     height: 655px;
     background-size: 653px 655px;
     background-image: url(./images/presentation-img-1-d.jpg);
   }
+  .decoration-line-d {
+    height: 4px;
+    width: 228px;
+    // margin-top: 40px;
+    // margin-left: auto;
+    // margin-right: auto;
+    background: #edeff3;
+  }
 }
+
 .presentation-img-2 {
   max-width: 100%;
   height: 234px;
@@ -312,6 +367,29 @@ h2 {
   letter-spacing: 4.42px;
   color: #020303;
 }
+.advantages p {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: -0.4px;
+  color: #45494f;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 34px;
+}
+.icon svg {
+  fill: #6377e3;
+}
+.advantages li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @media (max-width: 1199px) {
   .advantages .item {
     margin-left: auto;
@@ -356,6 +434,7 @@ h2 {
 /////////////////////// features
 .features {
   background: #fbfbfc;
+  padding-bottom: 32px;
 }
 .features h2 {
   text-align: center;
@@ -437,7 +516,7 @@ h2 {
 ////////////////////// features END
 /////////////////////////photos
 .photos {
-  padding-top: 32px;
+  // padding-top: 32px;
   background: #fbfbfc;
 }
 .photos h2 {
@@ -477,6 +556,7 @@ h2 {
   }
 }
 /////////////////////////photos END
+
 ////////////////////////technologies
 .technologies {
   padding-top: 40px;
@@ -539,6 +619,8 @@ h2 {
   }
   .technologies li {
     margin-bottom: 8px;
+    width: 394.12px;
+    height: 64px;
   }
   .technologies li:not(:nth-child(3n + 3)) {
     margin-right: 8px;
@@ -552,6 +634,112 @@ h2 {
 }
 
 ///////////////////////technologies END
+
+/////////////////////////apointment
+
+.apointment {
+  margin-top: 48px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f4;
+}
+.logo-gray {
+  width: 155px;
+  height: 60px;
+  margin: 0 auto;
+  background-image: url(./images/logo-gray-m.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    width: 197px;
+    height: 76px;
+    background-size: 197px 76px;
+    background-image: url(./images/logo-gray-d.png);
+    order: 1;
+  }
+}
+.apointment h2 {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.65;
+  letter-spacing: -0.4px;
+  color: #1652ac;
+}
+.apointment p {
+  margin-top: 32px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+  color: #45494f;
+}
+.apointment .mail {
+  font-weight: 700;
+}
+// .kontakt::before {
+//   content: '\27F6';
+//   font-size: 34px;
+// }
+@media (max-width: 1199px) {
+  .kontakt {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.kontakt {
+  margin-top: 50px;
+  width: 359px;
+  height: 68.38px;
+  left: 8px;
+  top: 8698.08px;
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%),
+    #004fc7;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+  border-radius: 12px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  text-align: center;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .apointment {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 1400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    ///////////////////////////////need container
+  }
+  .apointment {
+    margin-top: 76px;
+    padding-bottom: 76px;
+    border-bottom: 1px solid #eef0f4;
+  }
+  .apointment-div-d {
+    width: 420px;
+  }
+  .apointment h2 {
+    margin-top: 0px;
+  }
+  .apointment p {
+    margin-top: 0px;
+  }
+}
+////////////////////////apointment END
 ///////////////////////footer
 .footer {
   margin-top: 45px;
