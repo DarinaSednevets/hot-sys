@@ -8,7 +8,7 @@ const App = () => {
     <body>
       <header class="header">
 
-        <nav class="  navbar navbar-expand-md navbar-light  ">
+        <nav class="  navbar navbar-expand-lg navbar-light  ">
           <div class="container-fluid">
 
             <a class="navbar-brand" href="/index.html">logo</a>
@@ -120,13 +120,17 @@ const App = () => {
       </section>
 
       <section className="speciality">
-        <h2>Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter Freikühleinheit.</h2>
-        <p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente Umgebungsluft.
-          <br></br>
-          <br></br>
-          <span>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
-            Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</span> auch bei kleinen Nennleistungen.</p>
-
+        <div className="lines-container">
+          <div className="lines"></div>
+        </div>
+        <div>
+          <h2>Unsere Spezialität besteht aus<br></br> unseren Kaltwassersätzen mit<br></br> integrierter Freikühleinheit.</h2>
+          <p>Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente Umgebungsluft.
+            <br></br>
+            <br></br>
+            <span>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
+              Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</span> auch bei kleinen Nennleistungen.</p>
+        </div>
       </section>
 
       <section className="advantages">
