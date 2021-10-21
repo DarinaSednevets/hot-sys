@@ -9,7 +9,7 @@ const App = () => {
     <body>
       <header class="header shadow-sm p-3 mb-5 bg-body rounded" >
 
-        <nav class="  navbar navbar-expand-lg navbar-light  ">
+        <nav class="  navbar navbar-expand-xxl navbar-light  ">
           <div class="container-fluid">
 
             <a class="navbar-brand" href="/index.html" >
@@ -85,6 +85,9 @@ const App = () => {
       </header>
 
       <section className="presentation">
+
+        {/* <div className="contant-container contant-container-d "> */}
+
         <div className="presentation-text-d">
           <h1 class="h1">
             Luftkondensierte<br />
@@ -96,18 +99,20 @@ const App = () => {
           <div class="presentation-img-1-m"></div>
           <p className="text">Aufgrund der kompakten Bauart
             werden platzsparende luftkondensierte Kompressionskältemaschinen
-            (umgangsspr. „Kaltwassersätze“)
+            (umgangsspr.„Kaltwassersätze“)
             vielseitig zur Prozesskühlung und Gebäudeklimatisierung eingesetzt.
           </p>
           <div className="decoration-line-d"></div>
         </div>
 
         <div className="presentation-img-1-d"></div>
+        {/* </div> */}
 
         {/* <div class="presentation-img-2"></div> */}
       </section>
 
       <section className="energy-efficiency">
+        {/* <div className="contant-container"> */}
         <div className="energy-efficiency-img"></div>
         <div className="energy-efficiency-text-d">
           <h2 className="h2">ENERGIEEFFIZIENZ IM <br className="br"></br>FOKUS</h2>
@@ -117,23 +122,30 @@ const App = () => {
             Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
           </p>
         </div>
+        {/* </div> */}
       </section>
+
       <section className="standards">
+        {/* <div className="contant-container"> */}
         <div class="standards-img-1"></div>
-        <div className="standards-div">
-          <h2>MODERNSTE STANDARDS</h2>
-          <p>Aktuelle Richtlinien und Verordnungen bezüglich des <span>Kältemittel Phase-Downs</span>  müssen berücksichtigt werden.
-            Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch strategischen
-            Gesichtspunkten entschieden werden.
-            Alle unsere Kältemaschinen entsprechen dem modernsten Stand
-            der Technik und werden in den unterschiedlichsten Branchen eingesetzt.
-            Unser Angebot umfasst ein <span>breites Sortiment an natürlichen und frigenen Kältemitteln</span>,
-            die den aktuellsten Normen und Verordnungen entsprechen.
-          </p>
+        <div className="standards-div ">
+          <div className=" contant-container">
+            <h2>MODERNSTE STANDARDS</h2>
+            <p>Aktuelle Richtlinien und Verordnungen bezüglich des <span>Kältemittel Phase-Downs</span>  müssen berücksichtigt werden.
+              Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen als auch strategischen
+              Gesichtspunkten entschieden werden.
+              Alle unsere Kältemaschinen entsprechen dem modernsten Stand
+              der Technik und werden in den unterschiedlichsten Branchen eingesetzt.
+              Unser Angebot umfasst ein <span>breites Sortiment an natürlichen und frigenen Kältemitteln</span>,
+              die den aktuellsten Normen und Verordnungen entsprechen.
+            </p>
+          </div>
         </div>
+        {/* </div> */}
       </section>
 
       <section className="speciality">
+        {/* <div className="contant-container"> */}
         <div className="lines-container">
           <div className="lines"></div>
         </div>
@@ -145,103 +157,108 @@ const App = () => {
             <span>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
               Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</span> auch bei kleinen Nennleistungen.</p>
         </div>
+        {/* </div> */}
       </section>
 
       <section className="advantages">
-        <h2 className="h2">IHRE VORTEILE</h2>
-        <ul className="advantages-list list" >
+        <div className="contant-container">
+          <h2 className="h2">IHRE VORTEILE</h2>
+          <ul className="advantages-list list" >
 
-          <li className="item">
-            <div className="icon">
-              <svg viewBox="0 0 40 32" width="49" height="56">
-                <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.724 0.821c0-0.227-0.184-0.41-0.41-0.41h-13.493c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-4.987h10.384c0.227 0 0.41-0.184 0.41-0.41v-2.699z"></path>
-                <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M25.108 0.41c-0.227 0-0.41 0.184-0.41 0.41v2.699c0 0.227 0.184 0.41 0.41 0.41h10.384v4.987c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-8.096c0-0.227-0.184-0.41-0.41-0.41h-13.493z"></path>
-                <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.313 31.59c0.227 0 0.41-0.184 0.41-0.41v-2.698c0-0.227-0.184-0.41-0.41-0.41h-10.384v-4.987c0-0.227-0.184-0.41-0.41-0.41h-2.699c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h13.493z"></path>
-                <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M24.697 31.179c0 0.227 0.184 0.41 0.41 0.41h13.493c0.227 0 0.41-0.184 0.41-0.41v-8.096c0-0.227-0.184-0.41-0.41-0.41h-2.699c-0.227 0-0.41 0.184-0.41 0.41v4.987h-10.384c-0.227 0-0.41 0.184-0.41 0.41v2.698z"></path>
-              </svg>
-            </div>
-            <p>Geringe Stellfläche</p>
-          </li>
-
-          <li className="item">
-            <div className="icon">
-              <svg viewBox="0 0 29 32" width="49" height="56">
-                <path d="M27.621 22.2l-2.46-1.438 2.14-0.581c0.527-0.144 0.841-0.694 0.697-1.225l-0.257-0.969c-0.138-0.531-0.684-0.85-1.211-0.706l-5.002 1.356-4.506-2.637 4.512-2.637 5.002 1.356c0.527 0.144 1.067-0.175 1.211-0.706l0.257-0.969c0.138-0.531-0.169-1.081-0.697-1.225l-2.14-0.581 2.46-1.438c0.471-0.275 0.634-0.887 0.364-1.369l-0.496-0.869c-0.27-0.481-0.879-0.644-1.349-0.369l-2.46 1.438 0.571-2.169c0.138-0.531-0.169-1.081-0.697-1.225l-0.954-0.256c-0.527-0.144-1.067 0.175-1.211 0.706l-1.337 5.062-4.512 2.637v-5.281l3.659-3.706c0.383-0.388 0.383-1.025 0-1.413l-0.697-0.706c-0.383-0.387-1.010-0.387-1.393 0l-1.563 1.587v-2.869c0-0.55-0.439-1-0.985-1h-0.985c-0.546 0-0.985 0.45-0.985 1v2.881l-1.563-1.587c-0.383-0.387-1.010-0.387-1.393 0l-0.722 0.706c-0.383 0.388-0.383 1.025 0 1.412l3.659 3.706v5.281l-4.512-2.637-1.337-5.063c-0.138-0.531-0.684-0.85-1.211-0.706l-0.954 0.256c-0.527 0.144-0.841 0.694-0.697 1.225l0.571 2.169-2.46-1.438c-0.471-0.275-1.073-0.112-1.349 0.369l-0.496 0.869c-0.27 0.481-0.113 1.088 0.364 1.369l2.46 1.438-2.14 0.569c-0.527 0.144-0.841 0.694-0.697 1.225l0.257 0.969c0.138 0.531 0.684 0.85 1.211 0.706l5.002-1.356 4.512 2.638-4.512 2.637-5.002-1.356c-0.527-0.144-1.067 0.175-1.211 0.706l-0.257 0.969c-0.138 0.531 0.169 1.081 0.697 1.225l2.14 0.581-2.46 1.438c-0.471 0.275-0.634 0.887-0.364 1.369l0.496 0.869c0.27 0.481 0.879 0.644 1.349 0.369l2.46-1.438-0.571 2.169c-0.138 0.531 0.169 1.081 0.697 1.225l0.954 0.256c0.527 0.144 1.067-0.175 1.211-0.706l1.337-5.063 4.512-2.637v5.281l-3.659 3.706c-0.383 0.387-0.383 1.025 0 1.413l0.697 0.706c0.383 0.387 1.010 0.387 1.393 0l1.563-1.587v2.869c0 0.55 0.439 1 0.985 1h0.985c0.546 0 0.985-0.45 0.985-1v-2.881l1.563 1.587c0.383 0.388 1.010 0.388 1.393 0l0.697-0.706c0.383-0.387 0.383-1.025 0-1.413l-3.659-3.706v-5.281l4.512 2.637 1.337 5.063c0.138 0.531 0.684 0.85 1.211 0.706l0.954-0.256c0.527-0.144 0.841-0.694 0.697-1.225l-0.571-2.169 2.46 1.438c0.471 0.275 1.073 0.112 1.349-0.369l0.496-0.869c0.289-0.469 0.132-1.081-0.345-1.356z"></path>
-              </svg>
-            </div>
-            <p>Mit und ohne integrierter Freikühlung</p>
-          </li>
-
-
-          <li className="item"><p>Für Außentemperaturen bis +55°C</p></li>
-          <li className="item"><p>Für Außen- und Innenaufstellung erhältlich</p></li>
-          <li className="item"><p>Betriebsbereit bei Anlieferung</p></li>
-          <li className="item"><p>Automatische Freikühlschaltung für verringerten Energieverbrauch</p></li>
-          <li className="item"><p>Robustes Gehäuse für Außenaufstellung</p></li>
-          <li className="item"><p>Geringe Schallemissionen</p></li>
-          <li className="item"><p>Wetterfest und Langlebig</p></li>
-          <li className="item"><p>Erhöhte Betriebssicherheit</p></li>
-        </ul>
-
-      </section>
-
-      <section className="features">
-        <div>
-          <h2>HAUPTMERKMALE</h2>
-          <ul>
-            <li class="item">
-              <div>1</div><p>25 verschiedene Modelle von <span>6 kW bis 600 kW</span> Kühlleistung</p>
-            </li>
-            <li class="item">
-              <div>2</div><p>Volumenströme von <span>1,5 m³/h bis 140 m³/h</span></p>
-            </li>
-            <li class="item">
-              <div>3</div><p>Auswahl aus <span>50 verschiedenen Prozesspumpen</span> im Hochfluss- und Hochdruckbereich</p>
-            </li>
-            <li class="item">
-              <div>4</div><p>Kompakteinheiten mit <span>integrierten Pumpen, Drucktanks, Filtern,Steuerungen</span> (optional mit Reservepumpe)</p>
-            </li>
-            <li class="item">
-              <div>5</div><p><span>Mikrochannel Verflüssiger</span> für höchste Energieeffizienz</p>
-            </li>
-            <li class="item">
-              <div>6</div><p>Mit optionalen <span>Kompressor Schallschutzummantelungenz</span></p>
-            </li>
-            <li class="item">
-              <div>7</div><p><span>Schallmindernde Ventilatortechnik</span> erhältlich</p>
-            </li>
-            <li class="item">
-              <div>8</div><p><span>Scroll, Multiscroll und Schraubenkompressoren </span>(optional mit Frequenzumrichter)erhältlich </p>
-            </li>
-            <li class="item">
-              <div>9</div><p><span>Automatische Leistungssteuerung</span> für Prozesse mit variabler Kühllast</p>
-            </li>
-            <li class="item">
-              <div>10</div><p><span>Kleine Kältemittelvolumen</span> dank extrakompakter Bauweise</p>
-            </li>
-            <li class="item">
-              <div>11</div><p>Auswahl aus <span>verschiedenen Low-GWP Kältemitteln, u.a.R513a, R1234ze und R290 (Propan)</span></p>
-            </li>
-            <li class="item">
-              <div>12</div><p>Mit <span>automatischen Glykol Nachfüllsystemem</span></p>
-            </li>
-            <li class="item">
-              <div>13</div><p>Mit <span>Remote HMI</span></p>
-            </li>
-            <li class="item">
-              <div>14</div><p><span>Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen</span> pro Maschine</p>
+            <li className="item">
+              <div className="icon">
+                <svg viewBox="0 0 40 32" width="49" height="56">
+                  <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.724 0.821c0-0.227-0.184-0.41-0.41-0.41h-13.493c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-4.987h10.384c0.227 0 0.41-0.184 0.41-0.41v-2.699z"></path>
+                  <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M25.108 0.41c-0.227 0-0.41 0.184-0.41 0.41v2.699c0 0.227 0.184 0.41 0.41 0.41h10.384v4.987c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-8.096c0-0.227-0.184-0.41-0.41-0.41h-13.493z"></path>
+                  <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.313 31.59c0.227 0 0.41-0.184 0.41-0.41v-2.698c0-0.227-0.184-0.41-0.41-0.41h-10.384v-4.987c0-0.227-0.184-0.41-0.41-0.41h-2.699c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h13.493z"></path>
+                  <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M24.697 31.179c0 0.227 0.184 0.41 0.41 0.41h13.493c0.227 0 0.41-0.184 0.41-0.41v-8.096c0-0.227-0.184-0.41-0.41-0.41h-2.699c-0.227 0-0.41 0.184-0.41 0.41v4.987h-10.384c-0.227 0-0.41 0.184-0.41 0.41v2.698z"></path>
+                </svg>
+              </div>
+              <p>Geringe Stellfläche</p>
             </li>
 
+            <li className="item">
+              <div className="icon">
+                <svg viewBox="0 0 29 32" width="49" height="56">
+                  <path d="M27.621 22.2l-2.46-1.438 2.14-0.581c0.527-0.144 0.841-0.694 0.697-1.225l-0.257-0.969c-0.138-0.531-0.684-0.85-1.211-0.706l-5.002 1.356-4.506-2.637 4.512-2.637 5.002 1.356c0.527 0.144 1.067-0.175 1.211-0.706l0.257-0.969c0.138-0.531-0.169-1.081-0.697-1.225l-2.14-0.581 2.46-1.438c0.471-0.275 0.634-0.887 0.364-1.369l-0.496-0.869c-0.27-0.481-0.879-0.644-1.349-0.369l-2.46 1.438 0.571-2.169c0.138-0.531-0.169-1.081-0.697-1.225l-0.954-0.256c-0.527-0.144-1.067 0.175-1.211 0.706l-1.337 5.062-4.512 2.637v-5.281l3.659-3.706c0.383-0.388 0.383-1.025 0-1.413l-0.697-0.706c-0.383-0.387-1.010-0.387-1.393 0l-1.563 1.587v-2.869c0-0.55-0.439-1-0.985-1h-0.985c-0.546 0-0.985 0.45-0.985 1v2.881l-1.563-1.587c-0.383-0.387-1.010-0.387-1.393 0l-0.722 0.706c-0.383 0.388-0.383 1.025 0 1.412l3.659 3.706v5.281l-4.512-2.637-1.337-5.063c-0.138-0.531-0.684-0.85-1.211-0.706l-0.954 0.256c-0.527 0.144-0.841 0.694-0.697 1.225l0.571 2.169-2.46-1.438c-0.471-0.275-1.073-0.112-1.349 0.369l-0.496 0.869c-0.27 0.481-0.113 1.088 0.364 1.369l2.46 1.438-2.14 0.569c-0.527 0.144-0.841 0.694-0.697 1.225l0.257 0.969c0.138 0.531 0.684 0.85 1.211 0.706l5.002-1.356 4.512 2.638-4.512 2.637-5.002-1.356c-0.527-0.144-1.067 0.175-1.211 0.706l-0.257 0.969c-0.138 0.531 0.169 1.081 0.697 1.225l2.14 0.581-2.46 1.438c-0.471 0.275-0.634 0.887-0.364 1.369l0.496 0.869c0.27 0.481 0.879 0.644 1.349 0.369l2.46-1.438-0.571 2.169c-0.138 0.531 0.169 1.081 0.697 1.225l0.954 0.256c0.527 0.144 1.067-0.175 1.211-0.706l1.337-5.063 4.512-2.637v5.281l-3.659 3.706c-0.383 0.387-0.383 1.025 0 1.413l0.697 0.706c0.383 0.387 1.010 0.387 1.393 0l1.563-1.587v2.869c0 0.55 0.439 1 0.985 1h0.985c0.546 0 0.985-0.45 0.985-1v-2.881l1.563 1.587c0.383 0.388 1.010 0.388 1.393 0l0.697-0.706c0.383-0.387 0.383-1.025 0-1.413l-3.659-3.706v-5.281l4.512 2.637 1.337 5.063c0.138 0.531 0.684 0.85 1.211 0.706l0.954-0.256c0.527-0.144 0.841-0.694 0.697-1.225l-0.571-2.169 2.46 1.438c0.471 0.275 1.073 0.112 1.349-0.369l0.496-0.869c0.289-0.469 0.132-1.081-0.345-1.356z"></path>
+                </svg>
+              </div>
+              <p>Mit und ohne integrierter Freikühlung</p>
+            </li>
+
+
+            <li className="item"><p>Für Außentemperaturen bis +55°C</p></li>
+            <li className="item"><p>Für Außen- und Innenaufstellung erhältlich</p></li>
+            <li className="item"><p>Betriebsbereit bei Anlieferung</p></li>
+            <li className="item"><p>Automatische Freikühlschaltung für verringerten Energieverbrauch</p></li>
+            <li className="item"><p>Robustes Gehäuse für Außenaufstellung</p></li>
+            <li className="item"><p>Geringe Schallemissionen</p></li>
+            <li className="item"><p>Wetterfest und Langlebig</p></li>
+            <li className="item"><p>Erhöhte Betriebssicherheit</p></li>
           </ul>
         </div>
       </section>
 
+      <section className="features">
+        {/* <div className="contant-container"> */}
+        <h2>HAUPTMERKMALE</h2>
+        <ul>
+          <li class="item">
+            <div>1</div><p>25 verschiedene Modelle von <span>6 kW bis 600 kW</span> Kühlleistung</p>
+          </li>
+          <li class="item">
+            <div>2</div><p>Volumenströme von <span>1,5 m³/h bis 140 m³/h</span></p>
+          </li>
+          <li class="item">
+            <div>3</div><p>Auswahl aus <span>50 verschiedenen Prozesspumpen</span> im Hochfluss- und Hochdruckbereich</p>
+          </li>
+          <li class="item">
+            <div>4</div><p>Kompakteinheiten mit <span>integrierten Pumpen, Drucktanks, Filtern,Steuerungen</span> (optional mit Reservepumpe)</p>
+          </li>
+          <li class="item">
+            <div>5</div><p><span>Mikrochannel Verflüssiger</span> für höchste Energieeffizienz</p>
+          </li>
+          <li class="item">
+            <div>6</div><p>Mit optionalen <span>Kompressor Schallschutzummantelungenz</span></p>
+          </li>
+          <li class="item">
+            <div>7</div><p><span>Schallmindernde Ventilatortechnik</span> erhältlich</p>
+          </li>
+          <li class="item">
+            <div>8</div><p><span>Scroll, Multiscroll und Schraubenkompressoren </span>(optional mit Frequenzumrichter)erhältlich </p>
+          </li>
+          <li class="item">
+            <div>9</div><p><span>Automatische Leistungssteuerung</span> für Prozesse mit variabler Kühllast</p>
+          </li>
+          <li class="item">
+            <div>10</div><p><span>Kleine Kältemittelvolumen</span> dank extrakompakter Bauweise</p>
+          </li>
+          <li class="item">
+            <div>11</div><p>Auswahl aus <span>verschiedenen Low-GWP Kältemitteln, u.a.R513a, R1234ze und R290 (Propan)</span></p>
+          </li>
+          <li class="item">
+            <div>12</div><p>Mit <span>automatischen Glykol Nachfüllsystemem</span></p>
+          </li>
+          <li class="item">
+            <div>13</div><p>Mit <span>Remote HMI</span></p>
+          </li>
+          <li class="item">
+            <div>14</div><p><span>Erhöhte Betriebssicherheit mit bis zu 4 Kühlkreisläufen</span> pro Maschine</p>
+          </li>
+
+        </ul>
+        {/* </div> */}
+      </section>
+
       <section className="photos">
+        {/* <div className="contant-container"> */}
         <h2>BILDER</h2>
         <div class="photos-img-1"></div>
+        {/* </div> */}
       </section>
 
       <section className="technologies">
+        {/* <div className="contant-container"> */}
         <h2>BESUCHER DIESER SEITE<br></br> SUCHTEN AUCH OFT<br></br> NACH:</h2>
         <ul >
           <li>GLYKOLWANNEN</li>
@@ -250,9 +267,11 @@ const App = () => {
           <li>WÄRMEMENGENMESSUNGEN</li>
           <li>ANLAGELEASING</li>
         </ul>
+        {/* </div> */}
       </section>
 
       <section className="apointment">
+        {/* <div className="contant-container"> */}
         <div className="logo-gray"></div>
         <h2>Jetzt Termin vereinbaren!</h2>
         <div className="apointment-div-d">
@@ -265,9 +284,11 @@ const App = () => {
           </p>
           <div className="kontakt">Kontakt</div>
         </div>
+        {/* </div> */}
       </section>
 
       <footer class="footer">
+        {/* <div className="contant-container"> */}
         <adress>
           <ul class="adress">
             <li class="footer-item">
@@ -293,6 +314,7 @@ const App = () => {
             </li>
           </ul>
         </adress>
+        {/* </div> */}
       </footer>
     </body>
   )
