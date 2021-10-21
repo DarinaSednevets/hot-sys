@@ -97,6 +97,29 @@ a {
 //   }
 // }
 /////////////////////////////Header END
+@media screen and (max-width: 1444px) {
+  .presentation,
+  .energy-efficiency,
+  .speciality,
+  // .advantages,
+  // .features >div,
+  
+  
+  .apointment {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 1444px) {
+  .presentation,
+  .energy-efficiency,
+  .standards-text {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 ////////////////////////////Presentation
 
 .h1 {
@@ -342,7 +365,13 @@ a {
 .lines {
   position: absolute;
 }
+
 @media (max-width: 1199px) {
+  .speciality {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .speciality br {
     display: none;
   }
@@ -758,6 +787,11 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+  .apointment {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .apointment h2 {
     text-align: center;
   }
@@ -856,6 +890,14 @@ a {
 .shortlinks a {
   color: #7c848d;
 }
+@media (max-width: 1199px) {
+  .footer {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 1200px) {
   .footer {
     margin-top: 50px;
