@@ -240,7 +240,32 @@ const App = () => {
 
       <section className="photos">
         <h2>BILDER</h2>
-        <div class="photos-img-1"></div>
+        {/* <div class="photos-img-1"></div> */}
+
+        <div id="carouselExampleCaptions" class="carousel  slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="photos-img-1"></div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="photos-img-1"></div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="photos-img-1"></div>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="technologies">
@@ -268,7 +293,7 @@ const App = () => {
           <div className="kontakt">Kontakt</div>
         </div>
       </section>
-<div className="apointment-border"></div>
+      <div className="apointment-border"></div>
       <footer class="footer">
         <adress>
           <ul class="adress">

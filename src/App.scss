@@ -159,7 +159,7 @@ a {
 }
 @media screen and (min-width: 1445px) {
   .presentation {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     // padding-left: 5px;
@@ -261,7 +261,7 @@ a {
   }
   .energy-efficiency {
     display: flex;
-    // width: 1200px;
+    max-width: 1445px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -330,6 +330,7 @@ a {
 }
 @media (min-width: 1445px) {
   .standards {
+    max-width: 1445px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -424,11 +425,15 @@ a {
     text-align: start;
   }
   .speciality {
+    max-width: 1445px;
     padding-top: 90px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 120px;
+    justify-content: space-between;
+    padding-left: 120px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .speciality p {
     width: 556px;
@@ -639,6 +644,7 @@ a {
     background-image: url(./images/photos-img-1-d.jpg);
   }
 }
+
 @media (min-width: 1445px) {
   .photos {
     padding-top: 74px;
