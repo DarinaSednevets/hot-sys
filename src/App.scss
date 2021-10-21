@@ -133,7 +133,7 @@ a {
   color: #020303;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1444px) {
   .h1 {
     text-align: center;
   }
@@ -157,7 +157,7 @@ a {
     background: #edeff3;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1445px) {
   .presentation {
     width: 1200px;
     margin-left: auto;
@@ -209,7 +209,7 @@ a {
   background-image: url(./images/energy-efficiency-img-m.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1445px) {
     margin: 0;
     width: 846px;
     height: 477px;
@@ -245,7 +245,7 @@ a {
 .energy-efficiency span {
   font-weight: 700;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .h2 {
     font-size: 20px;
     line-height: 2;
@@ -278,7 +278,7 @@ a {
   background-image: url(./images/standards-img-1-m.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1445px) {
     max-width: 545px;
     width: 545px;
     height: 729px;
@@ -328,7 +328,7 @@ a {
 .standards span {
   font-weight: 700;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .standards {
     margin-left: auto;
     margin-right: auto;
@@ -361,7 +361,7 @@ a {
   position: absolute;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .speciality {
     width: 375px;
     margin-left: auto;
@@ -388,7 +388,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1445px) {
     width: 100%;
     height: 889px;
     background-size: 1108px 889px;
@@ -417,7 +417,7 @@ a {
   font-weight: 600;
   color: #020303;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .speciality h2 {
     font-size: 20px;
     line-height: 2;
@@ -484,7 +484,7 @@ a {
   flex-direction: row;
   align-items: center;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .advantages .item {
     margin-left: auto;
     margin-right: auto;
@@ -508,7 +508,7 @@ a {
 .advantages .item:not(:last-child) {
   margin-bottom: 8px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .advantages-list {
     width: 1200px;
     display: flex;
@@ -558,7 +558,7 @@ a {
   flex-shrink: 0;
   flex-wrap: wrap;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .features li:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -588,7 +588,7 @@ a {
 .features .item span {
   font-weight: 600;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .features > div {
     width: 1200px;
   }
@@ -632,14 +632,14 @@ a {
   background-image: url(./images/photos-img-1-m.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1445px) {
     max-width: 610px;
     height: 813px;
     background-size: 610px 813px;
     background-image: url(./images/photos-img-1-d.jpg);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .photos {
     padding-top: 74px;
   }
@@ -691,7 +691,7 @@ a {
   letter-spacing: 1.42px;
   color: #fafbfe;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .technologies li:not(:last-child) {
     margin-bottom: 8px;
   }
@@ -701,7 +701,7 @@ a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .technologies br {
     display: none;
   }
@@ -749,7 +749,7 @@ a {
   background-image: url(./images/logo-gray-m.png);
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1445px) {
     margin: 0;
     width: 197px;
     height: 76px;
@@ -780,7 +780,7 @@ a {
 //   content: '\27F6';
 //   font-size: 34px;
 // }
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .kontakt {
     margin-right: auto;
     margin-left: auto;
@@ -818,7 +818,7 @@ a {
   justify-content: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .apointment {
     display: flex;
     align-content: center;
@@ -888,7 +888,7 @@ a {
 .shortlinks a {
   color: #7c848d;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1444px) {
   .footer {
     width: 375px;
     margin-left: auto;
@@ -896,7 +896,7 @@ a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1445px) {
   .footer {
     margin-top: 50px;
     width: 1200px;
