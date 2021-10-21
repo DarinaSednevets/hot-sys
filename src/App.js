@@ -14,10 +14,7 @@ const App = () => {
           <div class="container-fluid">
 
             <a class="navbar-brand" href="/index.html" >
-              <picture className="logo">
-                <source media="(min-width: 1400px)" srcset="./images/logo-d.png"></source>
-                <img src="./images/logo-m.png" alt="logo" />
-              </picture>
+              <div class="logo-color"></div>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
