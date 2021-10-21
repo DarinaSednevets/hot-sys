@@ -97,19 +97,7 @@ a {
 //   }
 // }
 /////////////////////////////Header END
-@media screen and (max-width: 1444px) {
-  .presentation,
-  .energy-efficiency,
-  .speciality,
-  // .advantages,
-  // .features >div,
-  
-  
-  .apointment {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
+
 @media screen and (max-width: 1444px) {
   .presentation,
   .energy-efficiency,
@@ -117,6 +105,13 @@ a {
     width: 375px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .presentation,
+  .energy-efficiency,
+  .speciality,
+  .apointment {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -742,6 +737,9 @@ a {
 .apointment {
   margin-top: 48px;
   padding-bottom: 10px;
+}
+.apointment-border {
+  width: 100%;
   border-bottom: 1px solid #eef0f4;
 }
 .logo-gray {

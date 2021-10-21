@@ -85,9 +85,6 @@ const App = () => {
       </header>
 
       <section className="presentation">
-
-        {/* <div className="contant-container contant-container-d "> */}
-
         <div className="presentation-text-d">
           <h1 class="h1">
             Luftkondensierte<br />
@@ -106,13 +103,9 @@ const App = () => {
         </div>
 
         <div className="presentation-img-1-d"></div>
-        {/* </div> */}
-
-        {/* <div class="presentation-img-2"></div> */}
       </section>
 
       <section className="energy-efficiency">
-        {/* <div className="contant-container"> */}
         <div className="energy-efficiency-img"></div>
         <div className="energy-efficiency-text-d">
           <h2 className="h2">ENERGIEEFFIZIENZ IM <br className="br"></br>FOKUS</h2>
@@ -122,11 +115,9 @@ const App = () => {
             Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von besonderer Bedeutung, sowie Steuer- und Regelungstechnik besonders wichtig.
           </p>
         </div>
-        {/* </div> */}
       </section>
 
       <section className="standards">
-        {/* <div className="contant-container"> */}
         <div class="standards-img-1"></div>
         <div className="standards-div ">
           <div className="standards-text">
@@ -141,11 +132,9 @@ const App = () => {
             </p>
           </div>
         </div>
-        {/* </div> */}
       </section>
 
       <section className="speciality">
-        {/* <div className="contant-container"> */}
         <div className="lines-container">
           <div className="lines"></div>
         </div>
@@ -157,7 +146,6 @@ const App = () => {
             <span>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.
               Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</span> auch bei kleinen Nennleistungen.</p>
         </div>
-        {/* </div> */}
       </section>
 
       <section className="advantages">
@@ -251,14 +239,11 @@ const App = () => {
       </section>
 
       <section className="photos">
-        {/* <div className="contant-container"> */}
         <h2>BILDER</h2>
         <div class="photos-img-1"></div>
-        {/* </div> */}
       </section>
 
       <section className="technologies">
-        {/* <div className="contant-container"> */}
         <h2>BESUCHER DIESER SEITE<br></br> SUCHTEN AUCH OFT<br></br> NACH:</h2>
         <ul >
           <li>GLYKOLWANNEN</li>
@@ -267,11 +252,9 @@ const App = () => {
           <li>WÄRMEMENGENMESSUNGEN</li>
           <li>ANLAGELEASING</li>
         </ul>
-        {/* </div> */}
       </section>
 
       <section className="apointment">
-        {/* <div className="contant-container"> */}
         <div className="logo-gray"></div>
         <h2>Jetzt Termin vereinbaren!</h2>
         <div className="apointment-div-d">
@@ -284,11 +267,9 @@ const App = () => {
           </p>
           <div className="kontakt">Kontakt</div>
         </div>
-        {/* </div> */}
       </section>
-
+<div className="apointment-border"></div>
       <footer class="footer">
-        {/* <div className="contant-container"> */}
         <adress>
           <ul class="adress">
             <li class="footer-item">
@@ -314,7 +295,6 @@ const App = () => {
             </li>
           </ul>
         </adress>
-        {/* </div> */}
       </footer>
     </body>
   )
