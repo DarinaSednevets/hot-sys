@@ -137,20 +137,7 @@ const Content = () => {
             <section className="advantages">
                 <div className="contant-container">
                     <h2 className="h2">IHRE VORTEILE</h2>
-
                     <ul className="advantages-list list" >
-
-                        <li className="item">
-                            <div className="icon">
-                                <svg width="20px" height="20px">
-                                    <use href="../public/sprite.svg#icon-1"></use>
-                                </svg>
-                            </div>
-                            <p>Mit und ohne integrierter Freikühlung</p>
-                        </li>
-
-
-
                         <li className="item">
                             <div className="icon">
                                 <svg viewBox="0 0 40 32" width="49" height="56">
