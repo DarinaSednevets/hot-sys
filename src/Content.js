@@ -30,8 +30,6 @@ const Content = () => {
                                     </div>
                                 </li>
 
-
-
                                 <li class="nav-item">
                                     <div class="dropdown">
                                         <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -142,14 +140,14 @@ const Content = () => {
 
                     <ul className="advantages-list list" >
 
-                        {/* <li className="item">
-              <div className="icon">
-                <svg width="20" height="20">
-                  <use href="./images/sprite.svg#icon-1"></use>
-                </svg>
-              </div>
-              <p>Mit und ohne integrierter Freikühlung</p>
-            </li> */}
+                        <li className="item">
+                            <div className="icon">
+                                <svg width="20px" height="20px">
+                                    <use href="../public/sprite.svg#icon-1"></use>
+                                </svg>
+                            </div>
+                            <p>Mit und ohne integrierter Freikühlung</p>
+                        </li>
 
 
 

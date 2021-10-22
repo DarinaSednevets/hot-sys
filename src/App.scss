@@ -38,64 +38,7 @@ h2 {
 a {
   display: block;
 }
-// @media screen and (max-width: 1199px) {
-//   // body {
-//   //   background: tr;
-//   // }
-//   section {
-//     max-width: 376px;
-//     padding: 0, 8px;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-// }
-
-//////////////containers
-// section {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-// @media (max-width: 1199px) {
-//   .contant-container {
-//     max-width: 375px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding: 0px 6px;
-//   }
-
-// }
-// @media (min-width: 1445px) {
-//   .contant-container-d {
-//     max-width: 1210px;
-//     padding: 0px, 5px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     background: rgb(70, 194, 163);
-//   }
-// }
-// .container {
-//   @media screen and (max-width: 1199px) {
-//     width: 375px;
-//   }
-//   @media screen and (min-width: 1400px) {
-//     width: 1200px;
-//   }
-// }
-/////////////////////////////Header
-// .logo {
-//   max-width: 100%;
-//   height: 28px;
-//   // margin: 0 auto;
-//   background-image: url(./images/logo-color-m.png);
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   @media screen and (min-width: 1400px) {
-//     max-width: 113px;
-//     height: 35px;
-//     background-size: 112px 35px;
-//     background-image: url(./images/logo-color-d.png);
-//   }
-// }
+////////////////////////////Header
 .p-3 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -109,7 +52,6 @@ a {
 .logo-color {
   width: 87px;
   height: 28px;
-  // margin: 0 auto;
   background-image: url(./images/logo-color-m.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -123,10 +65,13 @@ a {
 }
 /////////////////////////////Header END
 
+////////////////////////////////////////////common
 @media screen and (max-width: 1444px) {
   .presentation,
   .energy-efficiency,
-  .standards-text {
+  .standards-text,
+  .speciality,
+  .footer {
     width: 375px;
     margin-left: auto;
     margin-right: auto;
@@ -134,11 +79,33 @@ a {
   .presentation,
   .energy-efficiency,
   .speciality,
-  .apointment {
+  .apointment,
+  .footer {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
+@media (min-width: 1445px) {
+  .presentation,
+  .energy-efficiency,
+  .standards,
+  .speciality,
+  .apointment,
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presentation,
+  .footer {
+    max-width: 1200px;
+  }
+  .energy-efficiency,
+  .standards,
+  .speciality {
+    max-width: 1445px;
+  }
+}
+////////////////////////////////////////////common END
 
 ////////////////////////////Presentation
 
@@ -146,7 +113,6 @@ a {
   font-weight: bold;
   font-size: 34px;
   line-height: 1.88;
-  // text-align: center;
   letter-spacing: -0.4px;
   color: #1652ac;
 }
@@ -184,11 +150,9 @@ a {
 }
 @media screen and (min-width: 1445px) {
   .presentation {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    // padding-left: 5px;
-    // padding-right: 5px;
+    // max-width: 1200px;
+    // margin-left: auto;
+    // margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -206,7 +170,6 @@ a {
     width: 30%;
   }
   .presentation-img-1-d {
-    // margin: 0 auto;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,9 +181,6 @@ a {
   .decoration-line-d {
     height: 4px;
     width: 228px;
-    // margin-top: 40px;
-    // margin-left: auto;
-    // margin-right: auto;
     background: #edeff3;
   }
 }
@@ -243,10 +203,10 @@ a {
   }
 }
 
-.energy-efficiency {
-  margin-left: auto;
-  margin-right: auto;
-}
+// .energy-efficiency {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 .energy-efficiency p {
   margin-top: 40px;
   font-weight: 400;
@@ -278,7 +238,6 @@ a {
     letter-spacing: 2.42px;
   }
   .energy-efficiency-text-d {
-    // width: 60%;
     width: 447px;
   }
   .br {
@@ -286,9 +245,9 @@ a {
   }
   .energy-efficiency {
     display: flex;
-    max-width: 1445px;
-    margin-left: auto;
-    margin-right: auto;
+    // max-width: 1445px;
+    // margin-left: auto;
+    // margin-right: auto;
   }
 }
 
@@ -296,7 +255,6 @@ a {
 
 /////////////////////////standards
 .standards-img-1 {
-  // max-width: 30%;
   width: 100%;
   height: 505px;
   margin: 0 auto;
@@ -314,25 +272,16 @@ a {
 
 .standards {
   margin-top: 40px;
-  // padding-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
   z-index: 999;
-  // overflow: hidden;
 }
 .standards-div {
   background: linear-gradient(180deg, #163da2 0%, #003584 100%);
   width: 100%;
   padding-bottom: 20px;
 }
-// @media (max-width: 1199px) {
-//   .contant-container {
-//     max-width: 375px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding: 0px 6px;
-//   }
-// }
+
 .standards h2 {
   padding-top: 40px;
   margin-bottom: 16px;
@@ -355,9 +304,9 @@ a {
 }
 @media (min-width: 1445px) {
   .standards {
-    max-width: 1445px;
-    margin-left: auto;
-    margin-right: auto;
+    // max-width: 1445px;
+    // margin-left: auto;
+    // margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
@@ -388,11 +337,11 @@ a {
 }
 
 @media (max-width: 1444px) {
-  .speciality {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  // .speciality {
+  //   width: 375px;
+  //   // margin-left: auto;
+  //   // margin-right: auto;
+  // }
   .speciality br {
     display: none;
   }
@@ -450,15 +399,15 @@ a {
     text-align: start;
   }
   .speciality {
-    max-width: 1445px;
+    // max-width: 1445px;
     padding-top: 90px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-left: 120px;
-    margin-right: auto;
-    margin-left: auto;
+    // margin-right: auto;
+    // margin-left: auto;
   }
   .speciality p {
     width: 556px;
@@ -631,20 +580,17 @@ a {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    // width: 100%;
     height: 864px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 71px;
-    // margin-left: 52px;
     margin-bottom: -40px;
   }
 }
 ////////////////////// features END
 /////////////////////////photos
 .photos {
-  // padding-top: 32px;
   background: #fbfbfc;
 }
 .photos h2 {
@@ -808,10 +754,7 @@ a {
 .apointment .mail {
   font-weight: 700;
 }
-// .kontakt::before {
-//   content: '\27F6';
-//   font-size: 34px;
-// }
+
 @media (max-width: 1444px) {
   .kontakt {
     margin-right: auto;
@@ -857,8 +800,8 @@ a {
     align-items: center;
     justify-content: space-between;
 
-    margin-right: auto;
-    margin-left: auto;
+    // margin-right: auto;
+    // margin-left: auto;
     width: 1400px;
     padding-left: 100px;
     padding-right: 100px;
@@ -884,9 +827,7 @@ a {
 .footer {
   margin-top: 45px;
   padding-bottom: 56px;
-  margin-left: 24px;
-  // margin-left: auto;
-  // margin-right: auto;
+  // margin-left: 24px;
 }
 .footer address {
   margin-left: auto;
@@ -920,20 +861,20 @@ a {
 .shortlinks a {
   color: #7c848d;
 }
-@media (max-width: 1444px) {
-  .footer {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+// @media (max-width: 1444px) {
+//   .footer {
+//     width: 375px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+// }
 
 @media (min-width: 1445px) {
   .footer {
     margin-top: 50px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    // width: 1200px;
+    // margin-right: auto;
+    // margin-left: auto;
   }
   .footer .adress {
     display: grid;
